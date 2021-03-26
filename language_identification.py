@@ -457,7 +457,7 @@ char10_lr = accuracy_score(test_labels, predictions_char10_lr)           #accura
 
 """## selection of best model"""
 
-!pip install prettytable
+#!pip install prettytable
 
 from prettytable                     import PrettyTable
 from astropy.table                   import Table, Column
@@ -494,5 +494,5 @@ target=y
 model=lr_uni.fit(features, target);
 
 import pickle
- filename = 'unigram_model.sav'
- pickle.dump(model, open(filename, 'wb'))
+filename = 'unigram_model.sav'
+pickle.dump(model, open(filename, 'wb'))
