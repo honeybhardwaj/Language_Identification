@@ -73,8 +73,8 @@ this will be doing following:
 x,y = dataset["Text"],dataset["language"]
 
 # Encoding Y 
-encoder = LabelEncoder()
-y = encoder.fit_transform(y)
+#encoder = LabelEncoder()
+#y = encoder.fit_transform(y)
 
 print(y[:10])
 
@@ -457,7 +457,7 @@ char10_lr = accuracy_score(test_labels, predictions_char10_lr)           #accura
 
 """## selection of best model"""
 
-#!pip install prettytable
+!pip install prettytable
 
 from prettytable                     import PrettyTable
 from astropy.table                   import Table, Column
@@ -491,8 +491,9 @@ features = uni_vector.transform(x)
 target=y
 
 #apply random forest on train dataset
-model=lr_uni.fit(features, target);
+model=rfc_uni.fit(features, target);
 
 import pickle
 filename = 'unigram_model.sav'
 pickle.dump(model, open(filename, 'wb'))
+
