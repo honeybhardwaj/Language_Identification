@@ -24,5 +24,11 @@ Data folder contains the dataset used in the project.
 ![Screenshot from 2021-03-27 22-14-22](https://user-images.githubusercontent.com/51120790/112727944-e6f37980-8f4a-11eb-9da0-1d28fa2df672.png)
 
 <hr>
+## prediction 
+![Screenshot from 2021-03-27 22-44-59](https://user-images.githubusercontent.com/51120790/112728643-499a4480-8f4e-11eb-816d-f225313f2a62.png)
+![Screenshot from 2021-03-27 22-44-11](https://user-images.githubusercontent.com/51120790/112728649-4b640800-8f4e-11eb-8386-6f051c72dd1b.png)
+
+
+<hr>
 
 ## please don't forget to give a star if you liked it.
