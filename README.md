@@ -33,4 +33,4 @@ Data folder contains the dataset used in the project.
 
 <hr>
 
-## please don't forget to give a star if you liked it.
+## please don't forget to give a star ⭐ if you liked it.
