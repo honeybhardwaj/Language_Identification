@@ -1,0 +1,221 @@
+<html lang="en"><head>
+
+  <meta charset="UTF-8">
+
+  <title>Language Identification</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+  <script src="https://kit.fontawesome.com/5ceae9e9af.js" crossorigin="anonymous"></script>
+ 
+<style>
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700");
+* {
+  transition: 0.4s ease;
+}
+body {
+  background-color: #e5e9e9;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 4px;
+  font-family: "Raleway";
+  font-weight: 400;
+}
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  min-height: 100px;
+  padding: 0 25px;
+  box-sizing: border-box;
+  background-color: rgb(0,0,0);
+  box-shadow: 0 0 15px 2px rgba(0,0,0,0.5);
+  z-index: 100;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  transition: 0.35s ease;
+}
+.fixed-nav-bar .logo {
+  position: absolute;
+  left: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  text-transform: uppercase;
+  color: #ccc;
+  font-size: 28px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.fixed-nav-bar .author {
+  position: absolute;
+  left: 950px;
+  top: 50%;
+  transform: translateY(-50%);
+  text-transform: uppercase;
+  color: #ccc;
+  font-size: 28px;
+  font-weight: 300;
+  cursor: pointer;
+}
+.fixed-nav-bar .logo span {
+  color: #e78533;
+  font-weight: 600;
+}
+
+
+
+.fixed-nav-bar .author span {
+  color: #e78533;
+  font-weight: 600;
+}
+.deer-section {
+  min-height: 800px;
+  background-size: 424px 600px;
+  background-color: #1a1a1a;
+  box-shadow: 0 5px 20px 2px rgba(0,0,0,0.7);
+  z-index: 5;
+}
+
+p{
+  position:absolute;
+  top: 30%;
+  left: 42%;
+  text-transform: uppercase;
+  color: #ccc;
+  font-size: 28px;
+  font-weight: 300;
+  cursor: pointer;
+}
+p span{
+  color: #e78533;
+  font-weight: 600; 
+}
+
+{% block predict_css %}
+{% endblock %}
+
+#inputtext{
+  position: absolute;
+  top: 41%;
+  left: 35%;
+  height:200px;
+  width:400px;
+  border:2px solid rgb(0,0,0);
+  resize: none;
+  
+}
+.button{
+  position:absolute;
+  top: 80%;
+  left: 46%;
+  height:40px;
+  width:100px;
+  border-radius:  10%;
+  background-color:#1a1a1a;
+  border: 2px solid #e78533 ;
+  color: #e78533;
+  font-size: 20px;
+}
+.button:hover{
+  border: 2px solid #e78533 ;
+  color: #1a1a1a;
+  background-color: #e78533;
+
+}
+
+.footer {
+  min-height: 100px;
+  background-color: rgb(0,0,0);
+  box-sizing: border-box;
+  border-top: 6px solid #e78533;
+  color: #fff;
+}
+.social-buttons-container {
+  min-height: 100px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 20px auto 0;
+  text-align: center;
+}
+.social-button {
+  display: inline-block;
+  position: relative;
+  transform: scale(0.75);
+  height: 75px;
+  width: 75px;
+  background-size: cover !important;
+  transition: 0.3s ease;
+  margin: 14px 2px;
+  cursor: pointer;
+}
+.social-button:hover {
+  transform: scale(1);
+  transition: 0.3s cubic-bezier(0.3, 0.2, 0, 2.5);
+}
+
+
+@media screen and (max-width: 800px) {
+  .fixed-nav-bar .logo {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .deer-section {
+    min-height: 660px;
+    background-position: right bottom;
+    background-size: 300px 425px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .social-buttons-container {
+    max-width: 200px;
+  }
+}
+</style>
+
+  <script>
+  window.console = window.console || function(t) {};
+</script>
+
+  
+  
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+
+</head>
+
+<body translate="no">
+  <div class="fixed-nav-bar">
+    <div class="logo"><span>Language</span>Identifier</div>
+    <div class="author"><span>BY:</span>Honey Bhardwaj</div>
+    
+</div>
+
+
+<div class="rela-block deer-section">
+<form action="#" method="post"  >
+  <p><span>ENTER</span> TEXT:</p>
+  <textarea id="inputtext" name="nm"></textarea>
+  <input type="submit" value="Submit" class="button" />
+</form>
+{% block prediction %}
+{% endblock %}
+</div>
+
+<div class="rela-block footer">
+    <div class="rela-block social-buttons-container">
+        <div class="social-button github-button"><a href="https://github.com/honeybhardwaj/"><i class="fab fa-github fa-3x"></i></a></div>
+        <div class="social-button linkedin-button"><a href ="https://www.linkedin.com/in/honey-bhardwaj/"> <i class="fab fa-linkedin fa-3x"></i></a></div>
+        <div class="social-button medium-button"><a href ="#" ><i class="fab fa-medium fa-3x"></i></a></div>
+        <div class="social-button dev-button"><a href ="#" ><i class="fab fa-dev fa-3x"></i></i></a></div>
+    </div>
+    
+</div>
+     
+</body></html>

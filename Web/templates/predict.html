@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block predict_css %}
+.result{
+  position:absolute;
+  bottom: 0%;
+  left: 25%;
+  text-transform: uppercase;
+  color: #ccc;
+  font-size: 28px;
+  font-weight: 300;
+  cursor: pointer;
+}
+.result span{
+  color: #e78533;
+  font-weight: 600; 
+
+}
+{% endblock %}
+
+{% block prediction %}
+ <div class="result"><span> Predicted Language is : </span> {{val}}</div>
+{% endblock %}
