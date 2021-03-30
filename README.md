@@ -16,6 +16,7 @@ The web folder contains the main code to run the server. you can run it by follo
 
 The Requirements have been added in requirements.txt . LI is the virtual environment which you can use for setting uo the project.
 Data folder contains the dataset used in the project.
+You may see the project demo [here](https://user-images.githubusercontent.com/51120790/112991582-e80feb00-9184-11eb-914f-f0741907ae23.mp4)
 
 <hr>
 
