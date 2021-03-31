@@ -42,7 +42,10 @@ The project have 2 sav file:
 - unigram_model_rfc.sav which has random forest classifier as a classification algorithm.
 
 The web folder contains the main code to run the server. you can run it by following command:
-> python3 main.py
+```shell
+python3 main.py
+```
+
 
 The Requirements have been added in requirements.txt . LI is the virtual environment which you can use for setting uo the project.
 Data folder contains the dataset used in the project.
