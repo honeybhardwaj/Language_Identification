@@ -4,8 +4,38 @@
 
 ![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)![forthebadge](https://forthebadge.com/images/badges/built-with-swag.svg)![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)![forthebadge](https://forthebadge.com/images/badges/open-source.svg)![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)
 
+## Description of Dataset 
+WiLI-2018, the Wikipedia language identification benchmark dataset, contains 235000 paragraphs of 235 languages.
+Each language in this dataset contains 1000 rows/paragraphs.
+
+After data selection and preprocessing I used the 22 selective languages from the original dataset Which Includes following Languages
+
+- English
+- Arabic
+- French
+- Hindi
+- Urdu
+- Portuguese
+- Persian
+- Pushto
+- Spanish
+- Korean
+- Tamil
+- Turkish
+- Estonian
+- Russian
+- Romanian
+- Chinese
+- Swedish
+- Latin
+- German
+- Dutch
+- Japanese
+- Thai
+
+
 ## Description of Repo!!
-This is a Language Identification tool deployed on Flask . It is a simple Language prediction tool so don't mind if it gives you wrong results but it works real fine and have long way to go. The project evaluates the result for different model on 3 different algorithm. T
+This is a Language Identification tool deployed on Flask . It is a simple Language prediction tool so don't mind if it gives you wrong results but it works real fine and have long way to go. The project evaluates the result for different model on 3 different algorithm.
 
 The project have 2 sav file:
 - unigram_model.sav which has logistic regression as a classification algorithm. it is a unigram feature model.
