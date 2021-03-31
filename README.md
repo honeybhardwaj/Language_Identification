@@ -77,13 +77,13 @@ Contratulations!! everything is up for development. go ahead and contribute... c
 
 <hr>
 
-## how it looks
+## How it Looks
 ![Screenshot from 2021-03-27 22-14-05](https://user-images.githubusercontent.com/51120790/112727946-e824a680-8f4a-11eb-8076-e48fbdeb77e4.png)
 ![Screenshot from 2021-03-27 22-14-22](https://user-images.githubusercontent.com/51120790/112727944-e6f37980-8f4a-11eb-9da0-1d28fa2df672.png)
 
 <hr>
 
-## prediction 
+## Prediction Images
 
 ![Screenshot from 2021-03-27 22-44-59](https://user-images.githubusercontent.com/51120790/112728643-499a4480-8f4e-11eb-816d-f225313f2a62.png)
 ![Screenshot from 2021-03-27 22-44-11](https://user-images.githubusercontent.com/51120790/112728649-4b640800-8f4e-11eb-8386-6f051c72dd1b.png)
