@@ -53,6 +53,30 @@ You may see the project demo [here](https://user-images.githubusercontent.com/51
 
 <hr>
 
+## Setting Up the Project in your machine
+
+- Fork the github repo to create a copy in you account.
+- Clone the repo 
+```shell 
+git clone https://github.com/honeybhardwaj/Language_Identification.git
+```
+- Activate the virtual environment 
+```shell 
+source LI/bin/activate
+```
+- Install Dependencies
+```shell 
+pip3 install -r requirements.txt
+```
+- run server by going into the derectory
+```shell 
+cd Web
+python3 main.py
+```
+Contratulations!! everything is up for development. go ahead and contribute... contact me if you have any doubts. generate issues before contributing.
+
+<hr>
+
 ## how it looks
 ![Screenshot from 2021-03-27 22-14-05](https://user-images.githubusercontent.com/51120790/112727946-e824a680-8f4a-11eb-8076-e48fbdeb77e4.png)
 ![Screenshot from 2021-03-27 22-14-22](https://user-images.githubusercontent.com/51120790/112727944-e6f37980-8f4a-11eb-9da0-1d28fa2df672.png)
